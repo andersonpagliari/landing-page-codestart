@@ -2,6 +2,17 @@ const botaoSaibaMais = document.getElementById("botaoSaibaMais");
 const formulario = document.getElementById("formContato");
 const mensagemRetorno = document.getElementById("mensagemRetorno");
 const botaoBuscarCep = document.getElementById("buscarCep");
+const campoCep = document.getElementById("cep");
+
+campoCep.addEventListener("input", function () {
+    let cep = campoCep.value.replace(/\D/g, "");
+
+    if (cep.length > 5) {
+        cep = cep.substring(0, 5) + "-" + cep.substring(5, 8);
+    }
+
+    campoCep.value = cep;
+});
 
 botaoSaibaMais.addEventListener("click", function () {
     alert("Obrigado pelo interesse no CodeStart!");
