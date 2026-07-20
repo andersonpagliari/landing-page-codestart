@@ -18,3 +18,5 @@ Projeto simples de landing page desenvolvido com HTML, CSS e JavaScript.
 - CSS3
 - JavaScript
 - API ViaCEP
+
+Anderson - Dev. Full Stack Jr. (+praTi & Codifica) - 2026
