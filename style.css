@@ -80,10 +80,6 @@ button:hover {
     transform: scale(1.03);
 }
 
-button:hover {
-    background-color: #dca431;
-}
-
 .sobre,
 .contato {
     padding: 70px 0;
